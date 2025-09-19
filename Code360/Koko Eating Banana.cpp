@@ -1,6 +1,6 @@
 //binary search implementation
 
-ool isPossible(vector<int> v, int h, int mid){
+bool isPossible(vector<int> v, int h, int mid){
     int time = 0;
     // int midCount = 1;
     for(int i=0; i<v.size(); i++){
