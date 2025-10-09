@@ -1,4 +1,4 @@
-// problem no. 88
+// Problem no. 88
 
 class Solution {
 public:
