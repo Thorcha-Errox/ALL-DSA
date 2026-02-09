@@ -1,6 +1,5 @@
 // Problem No:- 110. Balanced Binary Tree
 
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,3 +35,4 @@ public:
         return max (leftHeight , rightHeight) + 1;
     }
 };
+
