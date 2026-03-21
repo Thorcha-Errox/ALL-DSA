@@ -1,0 +1,11 @@
+#include <bits/stdc++.h> 
+int findSum(int n, vector<int>& arr) {
+        
+    int sum = 0;
+    for(int x : arr){
+        if(x % 2 == 0 || x % 3 == 0){
+            sum += x;
+        }
+    }
+    return sum;
+}
